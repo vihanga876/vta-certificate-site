@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+.main{
+    background: url("img/back.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    width: 100% ;
+    height: 955px;
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+
+   
+}
+
+.field2{
+width: 25%;
+height: 60%;
+}
+
+.field2 img{
+    width: 100%;
+    height: 100%;
+    border-start-start-radius: 25px;
+    border-end-start-radius: 25px;
+    box-shadow: 10px 5px 10px ;
+    z-index: 100;
+}
+
+.field2 .img{
+    width: 100%;
+    height: 100%;
+    /* margin-top: 45px; */
+    border-start-start-radius: 25px;
+    border-end-start-radius: 25px;
+    box-shadow: 10px 5px 10px ;
+    z-index: 100;
+}
+
+.field{
+    padding: 1%;
+    width: 25%;
+    height: 55%;
+    border-end-end-radius: 25px;
+    border-start-end-radius: 25px;
+    backdrop-filter: blur(10px);
+    border-style: blur(10px);
+    box-shadow: 15px 13px 15px rgb(199, 197, 197);
+}
+
+
+.img{
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(99, 125, 255);
+}
+
+a:hover{
+
+    color: rgb(93, 106, 219);
+
+
+}
+
+.field button{
+    
+background-color: rgb(241, 242, 243);
+
+backdrop-filter: blur(15px) !important;
+
+/* border: 3px solid white; */
+
+/* box-shadow: 15px 13px 10px rgb(250, 248, 248); */
+
+
+
+}
+
+.firstPage{
+width: 100%;
+height: 650px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.card{
+/* border: 1px solid; */
+width: 30%;
+height: 40%;
+border-radius: 25px;
+}
+
+.card .img{
+    width: 100%;
+    margin-bottom: 36%;
+}
+
+.card .img img{
+    width: 20%;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+.card .img p{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.certificate{
+
+color: black !important;
+
+}
+.certificate:hover{
+
+background-color: rgb(212, 182, 12) !important;
+
+}
